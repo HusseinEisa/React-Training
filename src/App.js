@@ -5,6 +5,8 @@ import FunctionComponent from './Components/Functions/FunctionComponent';
 import FunctionProps from './Components/Functions/FunctionProps';
 import ClassProps from './Components/Classes/ClassProps';
 import ClassStates from './Components/Classes/ClassStates';
+import CartComponent from './Components/Lab2/Task1/CartComponent';
+import Form from './Components/Lab2/Task2/Form';
 
 function App() {
   return (
@@ -23,6 +25,10 @@ function App() {
         </ClassProps> */}
         
         {/* <ClassStates /> */}
+
+        {/* <CartComponent /> */}
+
+        {/* <Form /> */}
       </header>
     </div>
   );

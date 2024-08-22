@@ -1,0 +1,30 @@
+.CartNumber {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+    height: 2rem;
+    background-color: #eeeeeee5;
+    border-radius: 5rem;
+    box-sizing: border-box;
+}
+
+.CartNumber span {
+    color: black;
+}
+
+.btn {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    background-color: rgb(87, 211, 170);
+    cursor: pointer;
+    border: 0;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    background-color: aquamarine;
+}
