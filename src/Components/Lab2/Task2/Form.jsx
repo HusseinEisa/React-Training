@@ -6,7 +6,7 @@ class Form extends Component {
 
     Context = { 
         SignUp:"SignUp", 
-        Login:"LogIn", 
+        Login:"LogIn",
     };
 
     constructor(){
@@ -30,17 +30,6 @@ class Form extends Component {
                 CurrentPage: this.Context.Login,
                 OtherPage: this.Context.SignUp,
             })
-        }
-
-        {this.state.CurrentPage === "LogIn" ? 
-            this.State = {
-                CurrentPage: this.Context.SignUp,
-                OtherPage: this.Context.Login,
-            } :
-            this.State = {
-                CurrentPage: this.Context.Login,
-                OtherPage: this.Context.SignUp,
-            }
         }
     }
 

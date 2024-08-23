@@ -7,7 +7,7 @@ class CartComponent extends Component {
     constructor(){
         super();
         this.state = {
-            number: 1
+            number: 0
         }
 
         this.Increase = this.Increase.bind(this)
@@ -18,15 +18,13 @@ class CartComponent extends Component {
         this.setState({
             number: this.state.number+1
         });
-        this.state.number = this.state.number+1;
     }
 
     Decrease () {
-        if (this.state.number > 1) {
+        if (this.state.number > 0) {
             this.setState({
                 number: this.state.number-1
             });
-            this.state.number = this.state.number-1;
         }
     }
 

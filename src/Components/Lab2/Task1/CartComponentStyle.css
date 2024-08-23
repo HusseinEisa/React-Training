@@ -3,28 +3,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 10rem;
-    height: 2rem;
-    background-color: #eeeeeee5;
+    width: 100%;
+    height: 50px;
+    background-color: #1a1a1a;
     border-radius: 5rem;
     box-sizing: border-box;
 }
 
 .CartNumber span {
-    color: black;
+    color: white;
 }
 
 .btn {
     position: relative;
-    width: 25px;
-    height: 25px;
-    font-size: 20px;
-    background-color: rgb(87, 211, 170);
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    background-color: #258fffb0;
     cursor: pointer;
     border: 0;
     border-radius: 50%;
+    text-align: center;
 }
 
 .btn:hover {
-    background-color: aquamarine;
+    background-color: rgb(0, 119, 255);
 }
