@@ -1,0 +1,96 @@
+.Container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.FormCard {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.FormTitle {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.CommentsForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Inputs {
+    position: relative;
+}
+
+.CommentsForm .Inputs label {
+    font-size: 14px;
+    color: rgb(99, 102, 102);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    transition: all .3s ease;
+}
+
+.CommentsForm .Inputs input,
+.CommentsForm .Inputs textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: 0;
+    width: 93%;
+    background-color: transparent;
+}
+
+.CommentsForm .Inputs input:placeholder-shown+ label, .CommentsForm .Inputs textarea:placeholder-shown +label {
+    top: 10px;
+    background-color: transparent;
+}
+
+.CommentsForm .Inputs input:focus,
+.CommentsForm .Inputs textarea:focus {
+    border-color: #3366cc;
+}
+
+.CommentsForm .Inputs input:focus+ label, .CommentsForm .Inputs textarea:focus +label {
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    color: #3366cc;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.CommentsForm .Inputs textarea {
+    resize: none;
+    height: 100px;
+}
+
+.CommentsForm button {
+    background-color: #3366cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.CommentsForm button:hover {
+    background-color: #27408b;
+}

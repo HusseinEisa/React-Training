@@ -11,6 +11,8 @@ import Product from './Components/Lab3/Product';
 import LoginForm from './Components/Lab4/Task1/Form/LoginForm';
 import { ContextProvider } from './Components/Lab4/Task2/Context/Context';
 import First from './Components/Lab4/Task2/FirstComponent/First';
+import Comments from './Components/Lab5/Task1/Comments';
+import CommentsForm from './Components/Lab5/Task2/CommentsForm';
 
 function App() {
   return (
@@ -37,11 +39,16 @@ function App() {
       
       {/* <LoginForm /> */}
       
-      <header className="App-header">
-        <ContextProvider value={"The Context Value"}>
-          <First />
-        </ContextProvider>
-      </header>
+      {/* <ContextProvider value={"The Context Value"}>
+        <First />
+      </ContextProvider> */}
+      
+      <Comments />
+      
+      {/* <CommentsForm /> */}
+      
+      {/* <header className="App-header">
+      </header> */}
     </div>
   );
 }
