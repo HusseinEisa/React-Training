@@ -35,7 +35,7 @@ function App() {
       
       {/* <Form /> */}
       
-      {/* <Product /> */}
+      <Product />
       
       {/* <LoginForm /> */}
       
@@ -43,7 +43,7 @@ function App() {
         <First />
       </ContextProvider> */}
       
-      <Comments />
+      {/* <Comments /> */}
       
       {/* <CommentsForm /> */}
       

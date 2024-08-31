@@ -2,15 +2,15 @@ import React, {Component} from "react";
 
 import "./ProductStyle.css"
 import CartComponent from '../Lab2/Task1/CartComponent';
-import products from "./data/ProductData"
+import products from "../data/ProductData"
 
 class Product extends Component {
     
     render() {
         return(
-            <div className="Container">
+            <div className="ProductsContainer">
                 {products.map((Product) => (
-                    <div className="card">
+                    <div className="ProductCard">
                         <div className="top">
                             <img src={Product.img} alt={Product.name} />
                             <p className="title">
