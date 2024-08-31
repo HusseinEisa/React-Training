@@ -1,5 +1,5 @@
-import React, {Component} from "react";
-
+import React, {Component, Fragment} from "react";
+import ProductData from "../../data/ProductData";
 import "./CartComponentStyle.css";
 
 class CartComponent extends Component {
@@ -30,11 +30,21 @@ class CartComponent extends Component {
 
     render () {
         return(
-            <dev className="CartNumber">
-                <button className="btn" onClick={this.Decrease}>-</button>
-                <span>{this.state.number}</span>
-                <button className="btn" onClick={this.Increase}>+</button>
-            </dev>
+            <Fragment>
+                {this.state.number === 0 ? 
+                    <>
+                        <button className="cart-button" onClick={this.Increase}>
+                            <span>Add to cart</span>
+                        </button>
+                    </>
+                    :
+                    <div className="CartNumber">
+                        <button className="btn" onClick={this.Decrease}>-</button>
+                            <span>{this.state.number}</span>
+                        <button className="btn" onClick={this.Increase}>+</button>
+                    </div>
+                }
+            </Fragment>
         )
     }
 }
