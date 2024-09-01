@@ -1,0 +1,251 @@
+
+div {
+    box-sizing: border-box;
+}
+
+.FigmaFormePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.FigmaFormContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 0;
+    height: 1024px;
+    width: 1440px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    /* border: 2px solid black; */
+    position: relative;
+}
+
+.FigmaFormImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1024px;
+    width: 597px;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 0;
+}
+
+.FigmaFormImage {
+    height: 1024px;
+    width: 597px;
+}
+
+.FigmaForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1024px;
+    width: 843px;
+    overflow: hidden;
+    padding: 88px 90px 127px 88px;
+    background-color: white;
+    position: relative;
+}
+
+.Figmalogo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    background-color: #C4C4C4;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:  baseline;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.FormTitle span {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.Link {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+a:hover {
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.InputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 87px;
+    width: 665px;
+    gap: 8px;
+    position: relative;
+}
+
+#PasswordContainer {
+    height: 161px;
+    input {
+        max-height: 19px;
+    }
+}
+
+.InputContainer label {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344054;
+}
+
+.InputContainer input {
+    height: 56px;
+    width: 100%;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344054;
+}
+
+.InputContainer input:focus {
+    outline: 1px solid black;
+}
+
+.ImportantPoints {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    height: 87px;
+    width: 665px;
+    gap: 8px;
+}
+
+.ImportantPoints ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 74px;
+    width: 645px;
+    padding: 0;
+    gap: 10px;
+    margin: 0;
+    margin-left: 25px;
+}
+
+.ImportantPoints ul li {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #344054;
+    list-style-type: disc;
+}
+
+.CheckboxContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    height: 87px;
+    width: 665px;
+    gap: 8px;
+}
+
+.CheckboxContainer label {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+}
+
+.CheckboxContainer input {
+    height: 24px;
+    width: 24px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.TermsContainer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.TermsContainer span {
+    text-decoration: underline;
+}
+
+.TermsContainer span:hover {
+    cursor: pointer;
+}
+
+.SubmitContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 100px;
+    width: 256px;
+    margin: 0;
+    padding: 0;
+}
+
+.SubmitButton {
+    height: 64px;
+    width: 256px;
+    border: 1px solid #808080;
+    border-radius: 5rem;
+    background-color: #808080;
+    color: #cccccc;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.SubmitButton:hover {
+    background-color: #111111;
+    border-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+

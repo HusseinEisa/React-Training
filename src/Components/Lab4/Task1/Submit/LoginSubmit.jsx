@@ -10,7 +10,7 @@ class LogInSubmit extends Component {
     render() {
         return (
             <div className="SubmitCard">
-                <p className="heading">Welcome:<br />{this.props.email}</p>
+                <p className="heading">Welcome: {this.props.email}</p>
                 <p>You are logged in to the account at </p>
                 <p>{this.props.date.toLocaleString()}</p>
             </div>

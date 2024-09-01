@@ -1,8 +1,8 @@
 .SubmitCard {
     position: relative;
     width: fit-content;
-    min-width: 300px;
-    height: 350px;
+    min-width: 400px;
+    height: 450px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,6 @@
     padding: 12px;
     gap: 12px;
     border-radius: 8px;
-    /*cursor: pointer;*/
     color: black;
 }
 
@@ -40,13 +39,12 @@
 }
 
 .heading {
-    font-size: 20px;
-    /* text-transform: capitalize; */
+    font-size: 40px;
     font-weight: 700;
 }
 
 .SubmitCard p:not(.heading) {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .SubmitCard p:last-child {
